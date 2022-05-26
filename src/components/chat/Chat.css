@@ -1,0 +1,21 @@
+.chatContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.chatThey {
+    padding: 3px;
+    margin: 3px 7px;
+    align-self: start;
+    background-color: #546aa4;
+    border-radius: 5px;
+}
+
+.chatMe {
+    margin: 3px 7px;
+    align-self: end;
+    padding: 3px;
+    background-color: #7e116e;
+    border-radius: 5px;
+    text-align: end;
+}

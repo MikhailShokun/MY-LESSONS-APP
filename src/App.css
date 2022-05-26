@@ -1,20 +1,124 @@
-/*.App {*/
-/*  text-align: center;*/
-/*  min-height: 100vh;*/
-/*  display: flex;*/
-/*  flex-direction: column;*/
-/*  align-items: center;*/
-/*  justify-content: center;*/
-/*  font-size: calc(10px + 2vmin);*/
+.App {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    border: 1px dotted #54114a;
+}
+
+.lessonContainer {
+    display: flex;
+    border-bottom: 1px dashed cadetblue;
+    border-left: 1px dashed cadetblue;
+    align-items: center;
+}
+
+.lessonContainer:last-child{
+    border-bottom: none;
+}
+
+.lessonNumber{
+    color: orange;
+    padding: 0 2px;
+}
+
+.time {
+    min-width: 50px;
+    border-right: 1px dashed cadetblue;
+    border-left: 1px dashed cadetblue;
+    font-size: calc(7px + 1vmin);
+    padding: 5px;
+}
+
+.timeStart{
+    border-bottom: 1px dashed orange;
+}
+
+/*.lessonAbout{*/
+/*    width: 100%;*/
+/*    cursor: pointer;*/
 /*}*/
 
-.App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.lessonTitle{
+    padding-left: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.lessonTitle:hover{
+    opacity: 0.5;
+}
+
+.dayWrapper{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    border: 1px solid cornflowerblue;
+    margin-bottom: 10px;
+}
+
+.dayWrapper:last-child{
+    margin-bottom: 0;
+}
+
+.dayTitle{
+    margin-right: 5px;
+    writing-mode: vertical-rl;
+    transform: scale(-1);
+    color:orchid;
+    font-weight: 600;
+}
+
+.lessonsWrapper {
+    font-size: calc(4px + 2vmin);
+    margin: 30px auto;
+    width: 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "firstArea secondArea secondArea"
+    "firstArea secondArea secondArea"
+    "firstArea thirdArea thirdArea";
+}
+
+.firstArea {
+    grid-area: firstArea;
+}
+
+.secondArea {
+    grid-area: secondArea;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "lessonsColumn chat"
+    "lessonsColumn chat";
+}
+
+
+.thirdArea {
+    grid-area: thirdArea;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.lessonsColumn {
+    grid-area: lessonsColumn;
+}
+
+.chat {
+    height: 100%;
+    grid-area: chat;
+    border-radius: 5px;
+    border: 1px solid blueviolet;
 }

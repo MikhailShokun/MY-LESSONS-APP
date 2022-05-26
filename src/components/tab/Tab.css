@@ -1,0 +1,43 @@
+.tabWrapper{
+    height: 100%;
+    overflow: auto;
+}
+
+.tabNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabTitle{
+    padding: 5px;
+    cursor: pointer;
+    display: flex;
+    flex: 1 1 33.33%;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
+}
+
+.tabListContainer{
+}
+
+.tabContent{
+}
+
+.tabContent a{
+    color: bisque;
+    text-decoration: none;
+}
+
+.tabContent a:hover,
+.tabContent a:active{
+    border-radius: 10px;
+    border-style: none;
+    padding: 1vmin;
+    background-color: blueviolet;
+    font-weight: 600;
+}
+
+
+.tabList{
+}
