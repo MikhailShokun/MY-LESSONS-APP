@@ -14,3 +14,7 @@ ReactDOM.createRoot(document.getElementById('root'))
             </Provider>
         </BrowserRouter>
     );
+
+
+//todo пример регистрации и логинизации(email + password) по ссылке:
+// https://www.youtube.com/watch?v=9bXhf_TELP4&list=PLpPqplz6dKxUfvM22GXRvYA4s-mvJE0XF&index=3&t=437s
