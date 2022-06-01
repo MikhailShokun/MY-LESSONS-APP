@@ -18,12 +18,6 @@
     min-height: 50px;
 }
 
-.tabListContainer{
-}
-
-.tabContent{
-}
-
 .tabContent a{
     color: bisque;
     text-decoration: none;
@@ -36,8 +30,4 @@
     padding: 1vmin;
     background-color: blueviolet;
     font-weight: 600;
-}
-
-
-.tabList{
 }
