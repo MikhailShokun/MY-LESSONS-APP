@@ -6,7 +6,7 @@ import Chat from "../../components/chat/Chat";
 import Ads from "../../components/ads/Ads";
 
 const Lessons = () => {
-    const [modalActive, setModalActive] = useState(false)
+    const [modalActive, setModalActive] = useState(false);
 
     return (
         <div className={"lessonsWrapper"}>

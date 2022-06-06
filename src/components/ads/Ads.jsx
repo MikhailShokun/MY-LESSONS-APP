@@ -4,7 +4,8 @@ import './Ads.css'
 const Ads = () => {
     return (
         <div>
-            Оголошення:
+            <h3 style={{display: 'flex', justifyContent: 'center'}}>
+                Оголошення:</h3>
             <div className={'adsContent'}>
                 <div className={'add'}>
                     Увага, батьки!!! За штори треба здати до кінця місяця,

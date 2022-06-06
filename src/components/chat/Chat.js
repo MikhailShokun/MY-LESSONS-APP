@@ -4,7 +4,7 @@ import './Chat.css'
 const Chat = () => {
     return (
         <div>
-           Чат:
+           <h3 style={{display: 'flex', justifyContent: 'center'}}>Чат:</h3>
             <div className={'chatContent'}>
                 <div className="chatThey">Кто завтра в школу пойдет?</div>
                 <div className="chatThey">мы заболели</div>

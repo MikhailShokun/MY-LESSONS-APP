@@ -43,12 +43,16 @@ const TabComponent = () => {
             </TabPanel>
 
             <TabPanel className={'tabContent'}>
-                <p><a href="#">Zoom</a></p>
-                <p><a href="#">Viber</a></p>
+                <div className={'tabContainer'}>
+                    <p><a href="#">Zoom</a></p>
+                    <p><a href="#">Viber</a></p>
+                </div>
             </TabPanel>
             <TabPanel className={'tabContent'}>
-                <p><a href="#">Математика</a></p>
-                <p><a href="#">English</a></p>
+                <div className={'tabContainer'}>
+                    <p><a href="#">Математика</a></p>
+                    <p><a href="#">English</a></p>
+                </div>
             </TabPanel>
         </Tabs>
     );
